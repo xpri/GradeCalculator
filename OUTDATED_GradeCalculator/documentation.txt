@@ -1,0 +1,10 @@
+Hello!
+
+I made this grade calculater for a grade calculator project in my ENEE140 class at NWHS middle college program.
+It brings back good memories from my code practices back then. Oh how I've come a long way. Anyhow reviewing
+this I see that it is hot garbage. What was I doing making all those float variables? I could have easily
+condensed it all onto a single function and went from there.
+
+Anyway I got some good kicks when I saw this, I hope it did the same for you.
+
+Moving onnn
