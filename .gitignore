@@ -1,3 +1,10 @@
 .vs
 .vscode
 *.exe
+*.o
+*.obj
+*.swp
+FINAL_GradeCalculator/build/
+FINAL_GradeCalculator/src/main
+/bin/
+
