@@ -6,5 +6,6 @@
 *.swp
 FINAL_GradeCalculator/build/
 FINAL_GradeCalculator/src/main
+/build/
 /bin/
 
