@@ -8,9 +8,9 @@ void GradeCalculator()
 
 
     std::string course_name;
-    std::cout << "Please enter the class name that you are calculating your grade for: " << std::endl;
+    std::cout << "Please enter the class name that you are calculating your grade for: ";
     std::getline(std::cin, course_name);
-    std::cout << "Great! Course specified: " << course_name << "!" << std::endl;
+    std::cout << "Great! Calculator for course: " << course_name << " created!\n" << std::endl;
 
     // Now time to calculate the actaul grades.
 
@@ -18,7 +18,7 @@ void GradeCalculator()
     std::cout << "How many weights are there for each grading category (e.g. 3 if you have homework, exam, and a final project)" << std::endl;
     std::cin >> num_of_categories;
     std::cin.ignore();
-    
+    std::cout << std::endl;
 
 
     for (int i = 0; i < num_of_categories; i++)
