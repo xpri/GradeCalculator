@@ -3,6 +3,10 @@
 
 void GradeCalculator()
 {
+    std::vector<std::string> names_of_categories;   // Size of zero. For the different types of names.
+    std::vector<int> weights_of_categories;   // Size of zero
+
+
     std::string course_name;
     std::cout << "Please enter the class name that you are calculating your grade for: " << std::endl;
     std::getline(std::cin, course_name);
@@ -15,8 +19,6 @@ void GradeCalculator()
     std::cin >> num_of_categories;
     std::cin.ignore();
     
-    std::vector<std::string> names_of_categories;   // Size of zero
-    std::vector<int> weights_of_categories;   // Size of zero
 
 
     for (int i = 0; i < num_of_categories; i++)
