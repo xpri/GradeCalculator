@@ -12,4 +12,13 @@ add_executable (${PROJECT_NAME})
 # Don't forget to specify the scope of the source. i.e. PRIVATE, PUBLIC, or INTERFACE
 # For an executable, this must always be PRIVATE
 # target_sources(${PROJECT_NAME} "src/main.cpp")
-target_sources(${PROJECT_NAME} PRIVATE "src/main.cpp")
+
+# Setting 'PROJECT_SOURCES' as a variable to clean up the code.
+set(PROJECT_SOURCES
+    "src/main.cpp"
+    "src/helper.h"
+    "src/helper.cpp"
+)
+
+# Note just two variables inside of the target sources.
+target_sources(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCES})
