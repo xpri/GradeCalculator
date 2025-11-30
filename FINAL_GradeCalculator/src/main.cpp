@@ -5,6 +5,7 @@
 
 int main()
 {
+    system("clear"); //Clears the terminal of any junk beforehand.
     std::string title = "Welcome to my grade calculator program!";
 
     // These functions are now defined in helper.cpp but declared in helper.h
